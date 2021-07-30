@@ -1,0 +1,12 @@
+## rate limit
+
+x reqs/ y secs
+
+Customer Identifier
+  -> requests made
+  -> limit = x
+  -> time = y
+
+canMake(customerIdentifier) -> boolean
+
+lastRequestTimeStamp, number of requests made
