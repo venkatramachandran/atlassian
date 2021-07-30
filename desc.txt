@@ -10,3 +10,14 @@ Customer Identifier
 canMake(customerIdentifier) -> boolean
 
 lastRequestTimeStamp, number of requests made
+------------------------------------------------
+
+who is the winner of elections?
+inputs:
+   array or list of votes of strings <name of candidate person voted for>
+    size: unbounded but fits in memory
+    data quality: candidate names are unique. invalid votes - empty/null strings
+output:
+    winner name
+    there could be more than 1 candidate with the same vote count
+    winner is the name that appears first in the list -> maintain order
